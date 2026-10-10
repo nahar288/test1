@@ -19,7 +19,7 @@ class TestString(unittest.TestCase):
         self.assertIsInstance(r2, int)
 
     def test_words(self):
-        r3 = main.words("I love Python")
+        r3 = main.words("I hate Python")
         self.assertEqual(r3, 3)
 
     
