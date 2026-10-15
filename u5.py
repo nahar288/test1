@@ -15,7 +15,7 @@ class TestString(unittest.TestCase):
         self.assertEqual(r2, 2)
         self.assertTrue(r2 > 0)
         self.assertFalse(r2 == 0)
-        self.assertIn(r2, [1, 2, 3])
+        self.assertIn(r2, [3, 2, 4])
         self.assertIsInstance(r2, int)
 
     def test_words(self):
