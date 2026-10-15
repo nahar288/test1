@@ -6,9 +6,9 @@ import main
 class TestString(unittest.TestCase):
 
     def test_reverse(self):
-        r1 = main.reverse("hello")
-        self.assertEqual(r1, "olleh")
-        self.assertNotEqual(r1, "hello")
+        r1 = main.reverse("omen")
+        self.assertEqual(r1, "nemo")
+        self.assertNotEqual(r1, "omen")
 
     def test_vowels(self):
         r2 = main.vowels("hello")
