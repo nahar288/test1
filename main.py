@@ -9,6 +9,5 @@ def vowels(text):
     return total
 
 def words(text):
-    
     return len(text.split())
     
