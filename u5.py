@@ -1,10 +1,7 @@
-
 import unittest
 import main
 
-
 class TestString(unittest.TestCase):
-
     def test_reverse(self):
         r1 = main.reverse("omen")
         self.assertEqual(r1, "nemo")
